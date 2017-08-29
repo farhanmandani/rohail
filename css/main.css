@@ -1,0 +1,65 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: white;
+    -webkit-font-smoothing: antialiased;
+}
+
+html {
+	width: 100%;
+	overflow-x: hidden;
+	position: relative;
+	height: auto;
+	font-size: 16px;
+}
+
+/* Nav Bar */
+.fixedBar {
+    background-color: white;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    border-bottom: 1px;
+    top: 0;
+    position: fixed;
+    width: 100%;
+}
+.fixedBar h1 {
+    font-family:'Open Sans Condensed', sans-serif; 
+    font-size: 3em;
+    margin: 0;
+    display: inline;
+    letter-spacing: .03em;
+    padding-left: 1%;
+}
+
+.fixedBar ul {
+    list-style-type: none;
+    display: inline;
+    margin-top: 25px;
+    text-align: right;
+}
+
+.fixedBar li {
+    display: inline-block;
+    padding-right: 20px;
+}
+
+.fixedBar a {
+    color: black;
+    text-decoration: none; 
+}
+
+.fixedBar a:hover {
+    color: dimgrey;
+    text-decoration: none;
+}
+
+.about {
+    margin-top: 5%;
+    height: 50em;
+}
+
+.gallery {
+    background-color: black;
+    height: 100em;
+}
